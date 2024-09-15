@@ -16,7 +16,7 @@ const Navbar = () => {
                 <a href="#domains" className="text-white font-semibold  hover:text-gray-200">Explore Domains</a>
                 <a href="#faqs" className="text-white font-semibold hover:text-gray-200">FAQs</a>
             </div>
-            <button href="#register" className="px-6 py-2 text-sm border-none rounded-lg text-black bg-slate-100 hover:bg-blue-500" >Register</button>
+            <button href="/signup" className="px-6 py-2 text-sm border-none rounded-lg text-black bg-slate-100 hover:bg-blue-500" >Register</button>
             <img src={menu} alt="menu_icon" className='md:hidden h-11 w-11' />
             </div>
             
