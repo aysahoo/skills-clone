@@ -2,11 +2,6 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import {useNavigate} from 'react-router-dom'
 
-// const navigate = useNavigate();
-// const navigating = () => {
-//   navigate('./Homepage.jsx');
-// }
-
 const Signup = () => {
 
   const navigate = useNavigate();
