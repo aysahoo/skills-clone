@@ -1,7 +1,19 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import {useNavigate} from 'react-router-dom'
+
+// const navigate = useNavigate();
+// const navigating = () => {
+//   navigate('./Homepage.jsx');
+// }
 
 const Signup = () => {
+
+  const navigate = useNavigate();
+  function onhandle(){
+    navigate('/');
+  }
+
   return (
     <>
       <Navbar />
@@ -19,7 +31,7 @@ const Signup = () => {
             <input type="password" placeholder="Password" className='bg-[#1A1635] rounded-md p-2'/>
             <a className='text-sm flex justify-end' href="/forgot">Forgot Password ?</a>
             <div className='flex justify-between'>
-            <button className='px-6 py-2 text-sm border-none rounded-lg text-black bg-slate-100 hover:bg-blue-500'>Back</button>
+            <button onClick={onhandle} className='px-6 py-2 text-sm border-none rounded-lg text-black bg-slate-100 hover:bg-blue-500'>Back</button>
             <button className='px-6 py-2 text-sm border-none rounded-lg text-black bg-slate-100 hover:bg-blue-500'>Create Account</button>
             </div>
           </form>
