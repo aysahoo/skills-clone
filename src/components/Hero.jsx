@@ -23,7 +23,7 @@ const Hero = () => {
       <img src={rectangle} alt="rectangle" className='absolute h-[30%] top-[75%] -left-[22%] -rotate-90' />
       <article className='absolute top-[80%] mx-[23%]'>
         <h1 className='text-4xl text-[#9A8DEC] '>2K24</h1>  
-        <h1 className='text-7xl text-slate-100 '>SKILSS++</h1>  
+        <h1 className='text-7xl text-slate-100 '>SKILLS++</h1>  
         <h1 className='text-2xl text-gray-400 tracking-wider '>Elevate Your Expertise</h1> 
         <h3 className='text-base text-balance text-gray-400 tracking-wider mt-10 '>
         Boost your skills with guidance in various tech domains. Gain expert knowledge, hands-on experience, personalized mentoring, and earn a certification. Transform your future,
