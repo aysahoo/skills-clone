@@ -2,7 +2,7 @@ import React from 'react'
 
 const Faq = () => {
   return (
-    <>
+    <div id='faqs'>
     <div className='pt-36'>
       <h1 className='text-6xl tracking-widest text-slate-100 text-center'>FAQs</h1>
     </div>
@@ -59,7 +59,7 @@ const Faq = () => {
     <h1>Can't find what you are looking for? <underline>Visit Zairza</underline></h1>
 </div>
 </div>
-    </>
+    </div>
   )
 }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/logo.png'
 import menu from '../assets/menu_icon.png'
+import { Link } from 'react-scroll'
 
 
 const Navbar = () => {
@@ -10,7 +11,7 @@ const Navbar = () => {
         <div className='max-w-screen-xl flex flex-wrap items-center justify-around mx-auto p-3'>
           <img src={logo} alt="Logo" className="h-8 w-8" />
             <div className="xs:hidden md:flex space-x-6 ">
-                <a href="#home" className="text-white font-semibold hover:text-gray-200">Process</a>
+                <a href="#process" className="text-white font-semibold hover:text-gray-200">Process</a>
                 <a href="#timeline" className="text-white font-semibold hover:text-gray-200">Timeline</a>
                 <a href="#perks" className="text-white font-semibold hover:text-gray-200">Perks</a>
                 <a href="#domains" className="text-white font-semibold  hover:text-gray-200">Explore Domains</a>

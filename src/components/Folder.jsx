@@ -17,7 +17,7 @@ const Folder = () => {
   const [type, setType] = useState('Full-Time');
 
   return (
-    <>
+    <div id='domains'>
       <div className='pt-36'>
         <article className='grid grid-rows-3 place-items-center'>
           <h1 className='text-4xl text-[#9A8DEC]'>Uncover the Dimensions</h1>
@@ -59,7 +59,7 @@ const Folder = () => {
 
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

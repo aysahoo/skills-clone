@@ -6,8 +6,8 @@ import week4 from '../assets/week4.png'
 
 const Badges = () => {
   return (
-    <>
-      <div className='mt-36'>
+    <div id='perks'>
+      <div className='mt-36 pt-20'>
             <article className=' grid grid-rows-3 place-items-center  '>
             <h1 className='text-4xl text-[#9A8DEC] '>Badges and Certificate</h1>  
             <h1 className='text-6xl tracking-widest text-slate-100  '>PERKS</h1>  
@@ -20,7 +20,7 @@ const Badges = () => {
                 <img src={week4} alt="week4" className='h-80 transition-transform duration-200 ease-in-out transform hover:scale-125' />
             </div>
       </div>
-    </>
+    </div>
   )
 }
 

@@ -3,7 +3,7 @@ import React from 'react'
 const Timeline = () => {
   return (
     <>
-      <div className='mt-80 bg-[#9A8DEC] p-[5%]'>
+      <div className='mt-80 bg-[#9A8DEC] p-[5%] pt-20' id='timeline'>
             <article className=' grid place-items-center '>
             <h1 className='text-4xl text-[#1B1B1B] '>Event Schedule</h1>  
             <h1 className='text-7xl tracking-widest text-slate-100  '>Timeline</h1>  
