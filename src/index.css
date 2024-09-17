@@ -8,3 +8,6 @@
 body {
   @apply bg-[#000720];
 }
+html {
+  scroll-behavior: smooth;
+}
