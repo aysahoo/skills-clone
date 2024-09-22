@@ -15,15 +15,14 @@ const Hero = () => {
   return (
     <>
     <div className='align-text-top relative min-h-screen w-auto '>
-      <img src={rectangle} alt="rectangle" className='md:absolute h-[20%] -top-4 right-0' />
+      <img src={rectangle} alt="rectangle" className='absolute h-[20%] -top-4 right-0' />
       <img src={circle} alt="circle" className='absolute h-[7%] top-20 right-80' />
       <img src={big_circle} alt="big_circle" class="absolute h-[50%] mx-auto md:absolute h-[50%] top-60 inset-0 mx-auto " />
-      <img src={kiddo2} alt="kiddo2" className='md:absolute h-[62%] top-[149px] inset-0 mx-auto' />
+      <img src={kiddo2} alt="kiddo2" className='absolute h-[62%] top-[149px] inset-0 mx-auto' />
       <img src={kiddo} alt="kiddo" className='absolute h-[55%] top-36 inset-0 mx-auto' />
       <img src={rectangle} alt="rectangle" className='absolute h-[30%] top-[75%] -left-[22%] -rotate-90' />
       <div className='grid-clos-1 grid-gap-30px'>
-      <article className='grid grid-clos-
-      1 align-buttom absolute top-[80%] mx-[23%]'>
+      <article className='grid grid-clos-1 align-buttom absolute top-[80%] mx-[23%]'>
         <h1 className='text-4xl text-[#9A8DEC] '>2K24</h1>  
         <h1 className='text-7xl text-slate-100 '>SKILLS++</h1>  
         <h1 className='text-2xl text-gray-400 tracking-wider '>Elevate Your Expertise</h1> 
@@ -39,7 +38,7 @@ const Hero = () => {
       </div>
       </div>
     </div>
-    <div className='grid grid-cols-1 align-text-buttom w-auto md:static min-h-screen w-auto'>
+    <div className='align-text-buttom w-auto md:static min-h-screen w-auto'>
         <img src={photo2} alt="photo2" className='fixed h-[20%] md:absolute h-[50%] top-[135%] inset-0 mx-auto ' />
         <article className='absolute top-[190%] mx-[23%]' id='process'>
             <h1 className='text-4xl text-[#9A8DEC] pt-10'>What is Skills++</h1>  
