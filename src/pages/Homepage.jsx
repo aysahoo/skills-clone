@@ -9,7 +9,7 @@ import Footer from '../components/Footer'
 
 const Homepage = () => {
   return (
-    <div className='' id='homepage'>
+    <div className='w-3/12 md: w-full' id='homepage'>
     <Navbar />
     <Hero />
     <Timeline />
