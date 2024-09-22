@@ -6,9 +6,9 @@ import { Link } from 'react-scroll'
 
 const Navbar = () => {
   return (
-    <div className='px-[9%] py-[3%] w-full fixed z-50'>
-      <nav className="p-2 bg-gray-400 rounded-lg backdrop-blur-md bg-opacity-20">
-        <div className='max-w-screen-xl flex flex-wrap items-center justify-around mx-auto p-3'>
+    <div className='md:px-[9%] py-[3%] w-full fixed z-50'>
+      <nav className="md:p-2 bg-gray-400 rounded-lg backdrop-blur-md bg-opacity-20">
+        <div className='md:max-w-screen-xl flex flex-wrap items-center justify-around mx-auto p-3'>
           <a href='#homepage' className='scroll-smooth'><img src={logo} alt="Logo"  className="h-8 w-8" /></a>
             <div className="xs:hidden md:flex space-x-6 ">
                 <a href="#process" className="text-white font-semibold hover:text-gray-200 scroll-smooth">Process</a>

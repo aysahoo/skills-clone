@@ -8,11 +8,11 @@ import Signup from './pages/Signup';
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <>
-      <Route path="/" element={<Homepage />} />
-      <Route path="/signin" element={<Signin />} />
-      <Route path="/signup" element={<Signup />} />
-      </>
+      <Route>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/signin" element={<Signin />} />
+        <Route path="/signup" element={<Signup />} />
+      </Route>
   )
 );
   return (
