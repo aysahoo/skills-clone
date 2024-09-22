@@ -13,7 +13,7 @@ const Badges = () => {
             <h1 className='text-6xl tracking-widest text-slate-100  '>PERKS</h1>  
             <h1 className='text-sm text-center text-balance text-white tracking-wide '>Level up and earn a new badge each week, and collect all four to receive a certificate of completion after your fourth successful submission, marking your mastery of the program.</h1> 
             </article>
-            <div className='md:p-10 mt-2 flex justify-around '>
+            <div className='p-10 mt-2 flex justify-around '>
                 <img src={week1} alt="week1" className='h-80 transition-transform duration-200 ease-in-out transform hover:scale-125' />
                 <img src={week2} alt="week2" className='h-80 transition-transform duration-200 ease-in-out transform hover:scale-125' />
                 <img src={week3} alt="week3" className='h-80 transition-transform duration-200 ease-in-out transform hover:scale-125' />

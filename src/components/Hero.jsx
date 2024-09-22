@@ -17,7 +17,7 @@ const Hero = () => {
     <div className='align-text-top relative min-h-screen w-auto '>
       <img src={rectangle} alt="rectangle" className='absolute h-[20%] -top-4 right-0' />
       <img src={circle} alt="circle" className='absolute h-[7%] top-20 right-80' />
-      <img src={big_circle} alt="big_circle" class="absolute h-[50%] mx-auto md:absolute h-[50%] top-60 inset-0 mx-auto " />
+      <img src={big_circle} alt="big_circle" class="absolute h-[50%] top-60 inset-0 mx-auto " />
       <img src={kiddo2} alt="kiddo2" className='absolute h-[62%] top-[149px] inset-0 mx-auto' />
       <img src={kiddo} alt="kiddo" className='absolute h-[55%] top-36 inset-0 mx-auto' />
       <img src={rectangle} alt="rectangle" className='absolute h-[30%] top-[75%] -left-[22%] -rotate-90' />
